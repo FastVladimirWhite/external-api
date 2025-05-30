@@ -1,6 +1,5 @@
-const express = require('express');  // import express
-const app = express();               // stwórz instancję aplikacji
-
+const express = require('express');
+const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
